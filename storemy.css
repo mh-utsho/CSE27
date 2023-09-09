@@ -1,0 +1,560 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #e3dddd; */
+    background-color: #323946;
+}
+
+.header{
+    height: 80px;
+    background-color: #1f242d;
+    
+    /* border-radius: 4px; */
+}
+
+nav{
+    background: #1f242d;
+    height: 100px;
+    width: 100%;
+    font-family: montserrat;
+    font-weight: bolder;
+
+}
+    
+label.logo{
+    color: rgb(255, 255, 255);
+    font-size:15px;
+    line-height: 80px;
+    /* text-decoration: 3px underline; */
+     /* display: inline; */
+     margin: 20px;
+     padding: 0px 13px;
+    font-weight: bolder;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /* display: hidden; */
+    
+   
+    
+
+}
+
+label.logo a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    border-radius: 10%;
+    color: #ffffff;
+}
+label.logo a:hover{
+    background: #636e7e;
+    /* padding: 5px; */
+    border-radius: 10%;
+    /* text-decoration: underline 3px ; */
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    color: #ffffff;
+    transition: .4s;
+    background-color: rgba(255,255,255,0.20);
+    color: #737fe4;
+}
+
+nav ul{
+    float:right;
+    margin-right:20px;
+    line-height: 90px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.actve,a:hover{
+    background: #383e43;
+    transition: .8s;
+}
+.checkbtn{
+    font-size: 40px;
+    color: rgb(237, 231, 231);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+           /* details */
+
+
+/* section{
+    background: url(img/islamic.png); no-repeat;
+    background-size: cover;
+      height: calc(100vh -80px) ;
+}
+  */
+#group{
+height: 200px;
+/* background-color: #323946; */
+text-align: center;
+
+}
+
+#grouppic{
+    padding-bottom: 40px;
+}
+
+#gpic{
+    height: 650px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    backdrop-filter:blur(20px);
+   
+    
+     
+    /* background-color: #323946; */
+
+}
+
+
+
+.head{
+    /* height:  1500px; */
+    /* display: inline; */
+    background-color: #323946;
+    /* padding-bottom: 20px; */
+    height: 600px;
+    text-align: center;
+}
+
+h1{
+    
+   
+    font-size: 70px;
+    padding-top: 50px;
+   
+    
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgb(249, 255, 251), 0 0 10px rgb(3, 3, 3), 0 0 5px rgba(54, 54, 253, 0);
+    
+}
+#content{
+    /* background-color: #30363d;  */
+    /* background-color: #603eaa; */
+    background-color: #323946;
+    /* background-color: #08266c; */
+}
+.classmate {
+    display: flex;
+    /* border: 1px solid #0c0b0b; */
+    padding: 40px;
+    padding-left: 20%;
+    margin-bottom: 20px;
+}
+.classmate img {
+    max-width: 350px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+.classmate-details {
+    flex: 3;
+    margin-left: 150px;
+    margin-top: 80px;
+    
+}
+.classmate h2 {
+    margin: 0;
+    font-size: 50px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.classmate p {
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 1.5;
+    
+    
+}
+
+
+
+/* social details */
+  
+
+.social {
+    margin: 25px 0 40px;
+   
+}
+.social a{
+
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    transition: .2s;
+    margin-left: 12px;
+   font-size: 30px;
+   border-radius: 50%;
+
+   display: inline-flex;
+    justify-content: center;
+    
+}
+
+ .social a:hover{
+       background: #00abf0;
+       color: #fff;
+       border-color:#00abf0 ;
+       box-shadow: 0 0 10px #00abf0;
+
+ }
+
+ .social .face{
+    
+    background: linear-gradient(-45deg, #1877F2,#3b5998);
+    
+    
+}
+
+
+.social .face::after{
+    /* background-color:#627768; */
+    background: linear-gradient(-45deg,#506999,#164a8f);
+    /* position: absolute; */
+    
+}
+    /* instagram */
+
+.social .ins{
+   
+        background: linear-gradient(-45deg, #c31ba2,#ffa41e);
+        
+        
+}
+.social .ins::after{
+   
+    background: linear-gradient(-45deg,#ac731e , #70105d);
+    /* position: absolute; */
+    
+}
+
+
+    /* linkedin */
+
+.social .lin{
+   
+        background: linear-gradient(-45deg,  #0a66c2,#0a07d3);
+        /* position: absolute; */
+        
+}
+.social .lin::after{
+   
+    background: linear-gradient(-45deg,#0e4dc1,#012e69);
+    /* position: absolute; */
+    
+}
+#gm{
+
+   
+    color: #d33a07;
+    
+
+} 
+.social .gmail{
+   
+    background: #ffffff;
+
+    /* background: linear-gradient(-45deg,#ac731e , #d70daf); */
+
+}
+.social a:hover{
+transform: translateY(-5px);
+
+}
+
+#footer{
+    height: 300px;
+    background-color: #1f242d;
+}
+
+
+
+
+/* chat gpt */
+
+   
+  
+  /* Media query for dex view */
+  @media (max-width: 1000px) {
+     
+   
+#grouppic{
+    padding-bottom: 40px;
+}
+
+#gpic{
+    height: 500px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    backdrop-filter:blur(20px);
+   
+    
+     
+    /* background-color: #323946; */
+
+}
+
+     
+.classmate {
+    display: flex;
+    /* border: 1px solid #0c0b0b; */
+    padding: 14px;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+.classmate img {
+    width: 290px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+.classmate-details {
+    flex: 3;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+}
+.classmate h2 {
+    margin: 0;
+    font-size: 50px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.classmate p {
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 1.5;
+    
+    
+}
+  
+
+  }
+  
+  @media (max-width: 800px) {
+     
+    #group{
+        height: 120px;
+        /* background-color: #323946; */
+        text-align: center;
+        
+        }
+    
+#grouppic{
+    padding-bottom: 40px;
+}
+
+#gpic{
+    height: 240px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    backdrop-filter:blur(20px);
+   
+    
+     
+    /* background-color: #323946; */
+
+}
+
+    h1{
+        
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(249, 255, 251), 0 0 10px rgb(3, 3, 3), 0 0 5px rgba(54, 54, 253, 0);
+       
+    }
+    .classmate {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 9%;
+      padding-bottom: 4px;
+    }
+  
+    .classmate-details {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .head{
+        height:  15px;
+        display: inline;
+        background-color: aqua;
+       
+    }
+  
+    .classmate img {
+        max-width: 270px;
+        border-radius: 7%;
+        margin-right: 10px;
+        margin-left: 4px;
+      
+
+    }
+
+    .classmate p {
+        /* padding-left: 10px; */
+        margin: 5px 0;
+        font-size: 19px;
+        line-height: 1.6;
+      
+    }
+    .classmate h2 {
+        margin: 0;
+        font-size: 38px;
+        /* margin-left: 2px; */
+        /* padding-left: 0px; */
+
+    }
+
+    /* socil medial */
+
+    .social {
+        margin: 5px 0 0px;
+        padding-left: 0px;
+
+    }
+ 
+    #check:checked ~ ul{
+        left: 0;
+       
+     }
+
+
+  }
+  
+ 
+ /* nave bar media  */
+
+
+ @media (max-width:1055px){
+
+    
+
+    lable.logo a{
+     background-color: #0a07d3;
+     
+    } 
+    /* nav ui li a{
+        font-size: 16px;
+
+    } */
+}
+
+@media (max-width:1055px){
+    .checkbtn{
+        display: block;
+        
+    } 
+    ul{
+        position: fixed;
+        width: 100%;
+        height:200vh;
+        background-color: rgba(255,255,255,0.20);
+        backdrop-filter:blur(20px);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        /*//////////////////////*/
+        justify-content: center;
+        position: absolute;
+        overflow: hidden;
+
+    } 
+    nav ul li{
+        display: block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #ffffff ;
+    }
+    a:hover,a.active{
+        
+        color: #ffffff;
+        transition: .4s;
+        background-color: rgba(255,255,255,0.20);
+        color: #000000;
+
+    }
+    /* .social{
+        display: none;
+        
+     } */
+   #check:checked ~ ul{
+       left: 0;
+      
+    }
+    
+/* Add this CSS code at the end of your existing CSS */
+
+  
+    
+} 
+     
+
+/* Add this CSS code at the end of your existing CSS */
+/* Your existing CSS code */
+
+/* Add this CSS code after your existing CSS */
+
